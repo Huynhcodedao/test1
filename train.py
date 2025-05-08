@@ -126,7 +126,7 @@ if __name__ == '__main__':
     )
     
     # log experiments to
-    run = wandb.init(project='retina-face-detector-main', config=config, entity='nmd2000')
+    run = wandb.init(project='retina-face-detector-main', config=config)
     
     # use artifact
     #use_data_wandb(run=run, data_name=DATASET, download=args.download)
